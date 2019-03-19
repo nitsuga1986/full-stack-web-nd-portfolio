@@ -1,0 +1,19 @@
+{% extends "main.html" %}
+{% block content %}
+<div class="row">
+	<div class="col-xs-4">
+		<div class="leftcol">
+			<h2>Categories</h2>
+				{% for category in categories %}
+					<a href="/catalog/{{category.name}}/items"><h3>{{category.name}}</h3></a>
+				{% endfor %}
+		</div>
+	</div>
+	<div class="col-xs-8">
+		<h2>{{category.name}} items ({{items|length}} items)</h2>
+			{% for item in items %}
+				<a href="/catalog/{{item.category.name}}/{{item.title}}"><h3>{{item.title}}</h3></a>
+			{% endfor %}
+	</div>
+</div>
+{% endblock %}

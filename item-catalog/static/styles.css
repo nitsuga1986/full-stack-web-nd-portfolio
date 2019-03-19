@@ -1,0 +1,103 @@
+/* Navbar */
+.navbar-header > a {
+	font-family: "Helvetica Neue Light", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	color: #ffffff;
+}
+.navbar-default {
+  background-color: #161A43;
+  border-color: #061542;
+}
+.navbar-default .navbar-brand {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #9fb1d4;
+}
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #9fb1d4;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #9fb1d4;
+  background-color: #061542;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #9fb1d4;
+  background-color: #061542;
+}
+.navbar-default .navbar-toggle {
+  border-color: #061542;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #061542;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ecf0f1;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ecf0f1;
+}
+.navbar-default .navbar-link {
+  color: #ecf0f1;
+}
+.navbar-default .navbar-link:hover {
+  color: #9fb1d4;
+}
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ecf0f1;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #9fb1d4;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #9fb1d4;
+    background-color: #061542;
+  }
+}
+
+/* Container */
+body {
+	background-color: #eee;
+}
+a, a:hover, a:active {
+	text-decoration: none;
+  color: #FD0000;
+}
+h2 {
+	color: #161A43;
+	font-weight: bold;
+}
+h3 {
+	color: #FD0000;
+	font-size: 1.5em;
+	line-height: 0.5em;
+}
+.main.container{
+		background-color: #ffffff;
+		border-radius:5px;
+		border:	1px solid #dbd7d7;
+}
+
+/* publiccategories */
+.leftcol{
+	border-right:	1px solid #dbd7d7;
+}

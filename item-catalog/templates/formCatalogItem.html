@@ -1,0 +1,31 @@
+{% extends "main.html" %}
+{% block content %}
+	<div class="row">
+		<div class="col-md-11 col-md-offset-1">
+			<h1>{% if isNew %}New{% else %}Edit{% endif %} Item</h1>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 col-md-offset-1">
+			<form {% if isNew %}action="/catalog/new/"{% else %}action="/catalog/{{editedCategory.title}}/edit/"{% endif %} method = "POST">
+				<div class="form-group">
+					<label for="name">Title:</label>
+					<input type ="text" maxlength="50" class="form-control" name="title" placeholder="Name of the item" value="{% if not isNew %}{{editedCategory.title}}{% endif %}">
+
+					<label for="description">Description:</label>
+					<textarea class="form-control" maxlength="250" rows="3" name="description" placeholder="Description of the item">{% if not isNew %}{{editedCategory.description}}{% endif %}</textarea>
+
+					<label for="category">Category:</label>
+					<select name="category" class="form-control">
+						{% for category in categories %}
+							<option value="{{category.id}}" {% if not isNew and category.id == editedCategory.category.id %}selected{%endif%}>{{category.name}}</option>
+						{% endfor%}
+				  </select>
+					<br>
+
+					<button type="submit" class="btn btn-default" id="submit" type="submit">Submit</button>
+				</div>
+			</form>
+		</div>
+	</div>
+{% endblock %}

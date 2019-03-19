@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1, user-scalable=0, initial-scale=1, initial-scale=1, shrink-to-fit=no">
+    <title>Neighborhood Map</title>
+    <meta name="description" content="Neighborhood Map">
+    <!-- Bootstrap core CSS -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:900" media="none" onload="if(media!='all')media='all'">
+    <!-- Custom styles for this template -->
+    <link href="css/layout.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header class="header-bar row flex-row align-items-center justify-content-start">
+          <h1 class="logo p-2">Neighborhood<strong>Map</strong></h1>
+          <div class="header-search input-group">
+            <form class="input-text-group" data-bind="submit: search">
+              <input id="location-input" type="text" data-bind="textInput: userLocation" placeholder="Search for nearby places...">
+            </form>
+            <button id="location-btn" class="btn" data-bind="click: search"><i class="fa fa-search" aria-hidden="true"></i></button>
+          </div>
+          <button id="filter-btn" data-bind="click: toggleFilters"><i class="fa fa-gear" aria-hidden="true"></i></button>
+      </header>
+      <div class="row flex-row">
+        <aside id="filters" class="filters">
+          <p class="filter-title">Current Weather</p>
+          <div class="weather">
+            <img class="float-right" data-bind="attr:{src: weatherIcon}" alt="weather icon">
+            <p data-bind="text: weatherTemp"></p>
+            <p data-bind="text: weatherTempmaxmin"></p>
+          </div>
+          <!--
+          <p class="filter-title">Sort by</p>
+          <div>
+            <button id="titleBtn" class="filter-btn" data-bind="click: sortByTitle">Title</button>
+          </div>
+        -->
+          <p class="filter-title">Markers</p>
+          <div class="markers">
+            <div class="btn-group" role="group">
+              <button type="button" data-bind="click: showListings" class="btn btn-secondary btn-sm">Show</button>
+              <button type="button" data-bind="click: toggleDrawing" class="btn btn-secondary btn-sm"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Drawing</button>
+              <button type="button" data-bind="click: hideListings" class="btn btn-secondary btn-sm">Hide</button>
+            </div>
+          </div>
+          <p class="filter-title">Filter by</p>
+          <div class="input-text-group">
+            <input class="filter-input-text" data-bind="value: filter, valueUpdate: 'afterkeydown'" type="text" placeholder="Name...">
+            <span class="input-text-icon" data-bind="click: clearFilter"><i class="fa fa-times" aria-hidden="true"></i></span>
+          </div>
+        </aside>
+      <div id="spacer" class="spacer"></div>
+      <main class="results">
+        <header id="toggleHeader" data-bind="click: toggleResults">
+          <i class="fa fa-chevron-down chevron" aria-hidden="true"></i>
+        </header>
+        <article id="results" data-bind="foreach: filteredItems">
+          <div class="result d-flex" data-bind="click: $parent.showMarker">
+            <div class="result-text-container">
+              <h3 class="result-title" data-bind="text: id() + '. ' + $data.title"></h3>
+            </div>
+          </div>
+        </article>
+      </main>
+      <div class="map-container">
+        <div id="map" style="width: 100%; height: 100%"></div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/popper.js/dist/umd/popper.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/knockout/dist/knockout.js"></script>
+    <script src="js/map.js"></script>
+    <script src="js/app.js"></script>
+    <!-- Custom Js -->
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMFtXHYrV8z6iZpXe9l2hPExBWxboHsEw&v=3&libraries=geometry,drawing,places&callback=initMap"
+        onerror="loadError()">
+    </script>
+
+  </body>
+</html>

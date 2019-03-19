@@ -1,0 +1,15 @@
+{% extends "main.html" %}
+{% block content %}
+<div class="row">
+	<div class="col-xs-12">
+		<h2>{{item.title}}</h2>
+		<p>{{item.description}}</p>
+		{% if username %}
+			<p>
+				<a href="/catalog/{{item.title}}/edit/">Edit</a></li> |
+				<a href="/catalog/{{item.title}}/delete/">Delete</a></li>
+			</p>
+		{% endif %}
+	</div>
+</div>
+{% endblock %}

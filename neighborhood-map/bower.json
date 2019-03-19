@@ -1,0 +1,22 @@
+{
+  "name": "UdacityP6NeighborhoodMap",
+  "homepage": "https://github.com/nitsuga1986/UdacityP6NeighborhoodMap",
+  "authors": [
+    "nitsuga1986 <agustinmancenido@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "knockout": "^3.4.2",
+    "font-awesome": "^4.7.0",
+    "bootstrap": "v4.0.0-beta"
+  }
+}

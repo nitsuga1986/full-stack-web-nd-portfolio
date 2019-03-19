@@ -1,0 +1,491 @@
+[{
+		"title": "Casco Histórico, Barrio de Monserrat",
+		"location": {
+			"lng": -58.372046,
+			"lat": -34.609652
+		}
+	},
+	{
+		"title": "Puerto Madero",
+		"location": {
+			"lng": -58.362122,
+			"lat": -34.607639
+		}
+	},
+	{
+		"title": "Barrio de San Telmo",
+		"location": {
+			"lng": -58.37122,
+			"lat": -34.617528
+		}
+	},
+	{
+		"title": "Barrio de La Boca",
+		"location": {
+			"lng": -58.359375,
+			"lat": -34.63688
+		}
+	},
+	{
+		"title": "La Recoleta",
+		"location": {
+			"lng": -58.389072,
+			"lat": -34.587715
+		}
+	},
+	{
+		"title": "Palermo: Soho, Hollywood, Zoo",
+		"location": {
+			"lng": -58.42804,
+			"lat": -34.587008
+		}
+	},
+	{
+		"title": "Teatro Colón",
+		"location": {
+			"lng": -58.382978,
+			"lat": -34.601139
+		}
+	},
+	{
+		"title": "Librería El Ateneo",
+		"location": {
+			"lng": -58.394051,
+			"lat": -34.595982
+		}
+	},
+	{
+		"title": "Caminito (La Boca)",
+		"location": {
+			"lng": -58.362765,
+			"lat": -34.639387
+		}
+	},
+	{
+		"title": "Jardín Japonés",
+		"location": {
+			"lng": -58.409414,
+			"lat": -34.574677
+		}
+	},
+	{
+		"title": "Zoológico de Palermo",
+		"location": {
+			"lng": -58.416796,
+			"lat": -34.578564
+		}
+	},
+	{
+		"title": "Hipódromo de Palermo",
+		"location": {
+			"lng": -58.42452,
+			"lat": -34.568882
+		}
+	},
+	{
+		"title": "Cementerio de Recoleta",
+		"location": {
+			"lng": -58.391562,
+			"lat": -34.587785
+		}
+	},
+	{
+		"title": "Museo de los Niños Abasto, Shopping",
+		"location": {
+			"lng": -58.410616,
+			"lat": -34.603259
+		}
+	},
+	{
+		"title": "Museo Nacional de Bellas Artes",
+		"location": {
+			"lng": -58.392591,
+			"lat": -34.584394
+		}
+	},
+	{
+		"title": "Parque Lezama",
+		"location": {
+			"lng": -58.369589,
+			"lat": -34.626552
+		}
+	},
+	{
+		"title": "Parque Rivadavia",
+		"location": {
+			"lng": -58.433383,
+			"lat": -34.617934
+		}
+	},
+	{
+		"title": "Parque Centenario",
+		"location": {
+			"lng": -58.436065,
+			"lat": -34.606455
+		}
+	},
+	{
+		"title": "Parque de los Niños",
+		"location": {
+			"lng": -58.457565,
+			"lat": -34.528904
+		}
+	},
+	{
+		"title": "Plaza de Mayo",
+		"location": {
+			"lng": -58.372464,
+			"lat": -34.608522
+		}
+	},
+	{
+		"title": "Casa Rosada",
+		"location": {
+			"lng": -58.370554,
+			"lat": -34.608283
+		}
+	},
+	{
+		"title": "Paseo de la Historieta",
+		"location": {
+			"lng": -58.370683,
+			"lat": -34.614862
+		}
+	},
+	{
+		"title": "Tierra Santa",
+		"location": {
+			"lng": -58.43173,
+			"lat": -34.548206
+		}
+	},
+	{
+		"title": "Casa Natal del Papa Francisco",
+		"location": {
+			"lng": -58.458349,
+			"lat": -34.634453
+		}
+	},
+	{
+		"title": "Feria de Mataderos",
+		"location": {
+			"lng": -58.500266,
+			"lat": -34.662652
+		}
+	},
+	{
+		"title": "Feria Costanera Sur",
+		"location": {
+			"lng": -58.35812,
+			"lat": -34.616928
+		}
+	},
+	{
+		"title": "Parque Avellaneda",
+		"location": {
+			"lng": -58.477221,
+			"lat": -34.645742
+		}
+	},
+	{
+		"title": "Parque Chacabuco",
+		"location": {
+			"lng": -58.443296,
+			"lat": -34.634338
+		}
+	},
+	{
+		"title": "Parque Agronomía",
+		"location": {
+			"lng": -58.480997,
+			"lat": -34.597465
+		}
+	},
+	{
+		"title": "Alto Palermo Shopping",
+		"location": {
+			"lng": -58.410584,
+			"lat": -34.58813
+		}
+	},
+	{
+		"title": "Calle Avellaneda",
+		"location": {
+			"lng": -58.471448,
+			"lat": -34.626366
+		}
+	},
+	{
+		"title": "Calle Libertad",
+		"location": {
+			"lng": -58.383601,
+			"lat": -34.605678
+		}
+	},
+	{
+		"title": "Calle Murillo - Cuero",
+		"location": {
+			"lng": -58.444777,
+			"lat": -34.599762
+		}
+	},
+	{
+		"title": "Galerías Pacífico",
+		"location": {
+			"lng": -58.375168,
+			"lat": -34.599165
+		}
+	},
+	{
+		"title": "Barrio de Once",
+		"location": {
+			"lng": -58.40597,
+			"lat": -34.607718
+		}
+	},
+	{
+		"title": "Outlet Calle Aguirre",
+		"location": {
+			"lng": -58.438103,
+			"lat": -34.595046
+		}
+	},
+	{
+		"title": "Outlet de Avenida Córdoba",
+		"location": {
+			"lng": -58.430014,
+			"lat": -34.594268
+		}
+	},
+	{
+		"title": "Outlet de Barracas",
+		"location": {
+			"lng": -58.375082,
+			"lat": -34.648355
+		}
+	},
+	{
+		"title": "Abasto Shopping",
+		"location": {
+			"lng": -58.411002,
+			"lat": -34.603471
+		}
+	},
+	{
+		"title": "Café Tortoni",
+		"location": {
+			"lng": -58.378805,
+			"lat": -34.608804
+		}
+	},
+	{
+		"title": "Parque Sarmiento",
+		"location": {
+			"lng": -58.498464,
+			"lat": -34.554533
+		}
+	},
+	{
+		"title": "Reserva Ecológica Costanera Sur",
+		"location": {
+			"lng": -58.354053,
+			"lat": -34.608275
+		}
+	},
+	{
+		"title": "Paseo de la Costa, Vicente López",
+		"location": {
+			"lng": -58.466492,
+			"lat": -34.524449
+		}
+	},
+	{
+		"title": "Planetario de Buenos Aires",
+		"location": {
+			"lng": -58.411732,
+			"lat": -34.570436
+		}
+	},
+	{
+		"title": "Museo Nacional de Arte Decorativo",
+		"location": {
+			"lng": -58.40066,
+			"lat": -34.582574
+		}
+	},
+	{
+		"title": "Museo de Arte Español \"Enrique Larreta\"",
+		"location": {
+			"lng": -58.455613,
+			"lat": -34.561283
+		}
+	},
+	{
+		"title": "Museo de Arte Hispanoamericano Isaac Fernández Blanco",
+		"location": {
+			"lng": -58.380178,
+			"lat": -34.591089
+		}
+	},
+	{
+		"title": "Museo de Arte Moderno",
+		"location": {
+			"lng": -58.370984,
+			"lat": -34.622031
+		}
+	},
+	{
+		"title": "Casa Museo Carlos Gardel",
+		"location": {
+			"lng": -58.40766,
+			"lat": -34.601038
+		}
+	},
+	{
+		"title": "Museo Argentino de Ciencias Naturales",
+		"location": {
+			"lng": -58.437846,
+			"lat": -34.605555
+		}
+	},
+	{
+		"title": "Museo de la Ciudad",
+		"location": {
+			"lng": -58.372142,
+			"lat": -34.610288
+		}
+	},
+	{
+		"title": "Museo Etnográfico Juan B. Ambrosetti",
+		"location": {
+			"lng": -58.371445,
+			"lat": -34.6114
+		}
+	},
+	{
+		"title": "Fragata Sarmiento",
+		"location": {
+			"lng": -58.365791,
+			"lat": -34.608804
+		}
+	},
+	{
+		"title": "Museo Histórico Nacional",
+		"location": {
+			"lng": -58.370833,
+			"lat": -34.627099
+		}
+	},
+	{
+		"title": "Museo Evita",
+		"location": {
+			"lng": -58.414757,
+			"lat": -34.580843
+		}
+	},
+	{
+		"title": "Malba",
+		"location": {
+			"lng": -58.403449,
+			"lat": -34.577292
+		}
+	},
+	{
+		"title": "Plaza San Martín",
+		"location": {
+			"lng": -58.375962,
+			"lat": -34.595134
+		}
+	},
+	{
+		"title": "El Cabildo",
+		"location": {
+			"lng": -58.373591,
+			"lat": -34.608663
+		}
+	},
+	{
+		"title": "Parque Saavedra",
+		"location": {
+			"lng": -58.480139,
+			"lat": -34.550698
+		}
+	},
+	{
+		"title": "Museo Malvinas",
+		"location": {
+			"lng": -58.464925,
+			"lat": -34.537424
+		}
+	},
+	{
+		"title": "Jardín Botánico",
+		"location": {
+			"lng": -58.4182334,
+			"lat": -34.5823268
+		}
+	},
+	{
+		"title": "Centro Cultural Kirchner",
+		"location": {
+			"lng": -58.3695137,
+			"lat": -34.6038107
+		}
+	},
+	{
+		"title": "Barrio Chino",
+		"location": {
+			"lng": -58.4502161,
+			"lat": -34.5578994
+		}
+	},
+	{
+		"title": "Parque de la Memoria",
+		"location": {
+			"lng": -58.4375453,
+			"lat": -34.5412158
+		}
+	},
+	{
+		"title": "Feria Boliviana de Liniers",
+		"location": {
+			"lng": -58.5275602,
+			"lat": -34.6410996
+		}
+	},
+	{
+		"title": "Parque Indoamericano",
+		"location": {
+			"lng": -58.4667277,
+			"lat": -34.6657407
+		}
+	},
+	{
+		"title": "Autódromo de la ciudad de Buenos Aires",
+		"location": {
+			"lng": -58.4687984,
+			"lat": -34.6978902
+		}
+	},
+	{
+		"title": "Museo del Automóvil",
+		"location": {
+			"lng": -58.5262647,
+			"lat": -34.6207157
+		}
+	},
+	{
+		"title": "El Rosedal",
+		"location": {
+			"lng": -58.4174126,
+			"lat": -34.5704983
+		}
+	},
+	{
+		"title": "La Flor, Floralis Genérica",
+		"location": {
+			"lng": -58.3940023,
+			"lat": -34.5817217
+		}
+	}
+]
